@@ -1,0 +1,176 @@
+/* ======== ESTILO GENERAL ======== */
+body {
+  background: #eaf4fc;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* ======== ENCABEZADO ======== */
+header {
+  background-color: #007acc; /* azul corporativo */
+  color: #fff;
+  text-align: center;
+  padding: 25px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+
+header p {
+  margin: 5px 0 15px;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+/* Menú */
+header nav .menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background: #005fa3;
+}
+
+header nav .menu li a {
+  padding: 12px 20px;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+header nav .menu li a:hover {
+  background: #fff;
+  color: #005fa3;
+  border-radius: 4px;
+}
+
+.video-container {
+  text-align: center;   /* centra el contenido dentro del div */
+  margin: 20px 0;
+}
+
+/* ======== SECCIONES ======== */
+main {
+  padding: 30px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+section h2 {
+  color: #005fa3;
+  border-bottom: 2px solid #007acc;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+/* ======== PIE DE PÁGINA ======== */
+footer {
+  background-color: #007acc;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+/* ======== CONTENEDOR DEL FORMULARIO ======== */
+.formulario-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  box-sizing: border-box;
+  margin: 80px auto; /* centrado vertical con margen */
+}
+
+/* Título del formulario */
+.formulario-container h1 {
+  text-align: center;
+  color: #007acc;
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+
+/* Etiquetas */
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 600;
+  color: rgb(20, 79, 148);
+}
+
+/* Campos de entrada */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+/* Botones */
+.botones {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"] {
+  background-color: #0077cc;
+  color: white;
+}
+
+input[type="submit"]:hover {
+  background-color: #005fa3;
+}
+
+input[type="reset"] {
+  background-color: #d64d4d;
+  color: #ffffff;
+}
+
+input[type="reset"]:hover {
+  background-color: #aaaaaa;
+}
+
+/* Enlace de regreso */
+.volver {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.volver a {
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.volver a:hover {
+  text-decoration: underline;
+}
